@@ -49,3 +49,13 @@
     display: block;
     margin-bottom:10px;
 }
+.user-component__subline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-component__subicon{
+ margin-top:5px;
+ margin-left:10px;
+ color:rgb(212, 22, 22);
+}
