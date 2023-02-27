@@ -86,3 +86,22 @@ background-color: rgba(0, 0, 0, 0.5);
 .open-post__heart-count span{
     margin-left:3px;
 }
+
+@keyframes heartBeat {
+    0%{
+        color:#fff;
+        transform: none;
+    }
+    50%{
+        color:tomato;
+        transform: scale(2);
+
+    }
+    100%{
+        color:#fff;
+    }
+}
+.open-post__heart-count:hover i{
+    animation: heartBeat 1s linear infinite;
+    will-change: transform;
+}

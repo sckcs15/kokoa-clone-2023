@@ -27,4 +27,15 @@ text-align: center;
 .alt-header__column span:last-child{
     margin-left:20px;
 }
+@keyframes rotateCog {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons  .fa-gear:hover{
+animation: rotateCog 2s linear infinite forwards;
+}
  
