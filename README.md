@@ -6,3 +6,8 @@ HTML & CSS를 사용하여 코코아톡 클론코딩하기
    (align-items, justyfy-content, flex-direction, flex-wrap)
 2. :root , var()
    (:root{--exname:color:#fff;} ==> var(--exname); 호출하여 사용)
+3. will-chage 를 사용하여 움직임을 부드럽게 사용가능
+4. orientation 의 landscape portrait으로 가로 세로모드에 따라
+   미디어쿼리 사용가능
+   5.branch로 버전별로 수정 및 생성하여 관리할 수 있게 사용가능
+5. gh-pages branch를 생성하여 무료 호스팅 가능
