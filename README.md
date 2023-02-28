@@ -11,3 +11,6 @@ HTML & CSS를 사용하여 코코아톡 클론코딩하기
    미디어쿼리 사용가능
    5.branch로 버전별로 수정 및 생성하여 관리할 수 있게 사용가능
 5. gh-pages branch를 생성하여 무료 호스팅 가능
+6. transform의 translate와 position을 통한 이동의 차이
+   translate는 이동하게되면 그 자리에는 있는 것으로 간주하고,
+   position으로 이동하면 그 자리에는 없는 것으로 간주하여 이동한다.
